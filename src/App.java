@@ -1,5 +1,8 @@
 
 import java.util.Map;
+
+import Ejercicios.contorllers.Laberinto;
+
 import java.util.HashMap;
 
 public class App {
@@ -28,8 +31,9 @@ public class App {
         System.out.println("Time taken: " + (endtime - startime) / 1_000_000_000.0 + " segundos");
         System.out.println(String.format("Time taken: %.9f segundos ",(endtime - startime)/ 1_000_000_000.0));
 
-        /// Ejericio 1
-        // runEjercicio();
+        //Ejericio 1
+        System.out.println("Ejercicio 1");
+        runEjercicio();
 
     }
 
@@ -77,12 +81,12 @@ public class App {
 
     public static void runEjercicio() {
 
-        // boolean[][] grid = {
-        // { true, true, true, true },
-        // { false, false, false, true },
-        // { true, true, false, true },
-        // { true, true, false, true }
-        // };
-
+        boolean[][] grid = {
+        { true, true, true, true },
+        { false, false, false, true },
+        { true, true, false, true },
+        { true, true, false, true }
+        };
     }
+
 }
